@@ -1,24 +1,23 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/2TmiRqwI)
 # final-project-skeleton
 
-    * Team Name: 
-    * Team Members: 
-    * Github Repository URL: 
+    * Team Name: Line Up
+    * Team Members: William Tun & Zwe Tun
+    * Github Repository URL: https://github.com/ese3500/final-project-lineup
     * Github Pages Website URL: [for final submission]
-    * Description of hardware: (embedded hardware, laptop, etc) 
+    * Description of hardware: laptops
 
 ## Final Project Proposal
 
 ### 1. Abstract
 
-In a few sentences, describe your final project. This abstract will be used as the description in the evaluation survey forms.
+   A zipline pulley that can move both ways along a zipline no matter the angle. The zipline pulley will mainly function as a easy to use delivery device that can carry light weight items and either drop them off at the end of the zipline or along the way. 
 
 ### 2. Motivation
-
-What is the problem that you are trying to solve? Why is this project interesting? What is the intended purpose?
+	In more rural and mountainous areas, typical transportation infrastructure can be both expensive and difficult to develop. In comparison, ziplines are much simpler as all they need are some posts and correct sized ropes. However, traditional ziplines face the issue of only working in one direction and as such lose much of their use. To solve that problem, our zipline would be motorized such that it could move back and forth along the line. Using the atmega328pb, we will also add additional functionality such as the ability to slow down before a post, and ability to drop packages off midway. 
 
 ### 3. Goals
-
+At the end we should have a working zipline package delivery device. This device will run on a cable. We will be able to control the position the device drops its packages. It will have 2 attachments/hooks for packages, and servos will be used to drop them autonomously. Two motors along with their electronic speed controllers(ESC) will control the device. A gyroscope will also be installed so the microcontroller can increase power to the motor when needed such as on an incline. In addition there are two lidar sensors on each side so it can detect distances to stop safely. Two rechargeable batteries will be used. One for the motors and one for the microcontroller. Finally the finish will be mostly out of 3D printed parts.
 These are to help guide and direct your progress.
 
 ### 4. Software Requirements Specification (SRS)
