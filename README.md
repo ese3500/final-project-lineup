@@ -21,20 +21,21 @@ At the end we should have a working zipline package delivery device. This device
 These are to help guide and direct your progress.
 
 ### 4. Software Requirements Specification (SRS)
+We will be using: 
+PWM and timers to manage the motors
+ADC and interrupts for the sensors
 
-Formulate key software requirements here.
 
 ### 5. Hardware Requirements Specification (HRS)
-
-Formulate key hardware requirements here.
+Our actuators will include four motors that will be used to drop off items, and move the zipline across rope. 
 
 ### 6. MVP Demo
 
-What do you expect to accomplish by the first milestone?
+We should be able to move across the zipline no matter the direction, stop before hitting an end and be able to move to a distance along the zipline.  
 
 ### 7. Final Demo
 
-What do you expect to achieve by the final demonstration or after milestone 1?
+The pulley should have a proper chasis and be able to move across the zipline, accurately drop off packages along the zipline and stop before hitting either end of the zipline. 
 
 ### 8. Methodology
 We will first focus on a prototype that can move back and forth along a rope. Afterwards, we will incorporate distance sensors that will detect posts and slow down the device before hitting a post. Then we will incorporate dropping functionality as well as the ability to drop off midway at a specific distance along the rope. 
@@ -52,11 +53,16 @@ This section is to help guide your progress over the next few weeks. Feel free t
 
 | **Week**            | **Task** | **Assigned To**    |
 |----------           |--------- |------------------- |
-| Week 1: 3/24 - 3/31 |          |                    |
-| Week 2: 4/1 - 4/7   |          |                    |
-| Week 3: 4/8 - 4/14  |          |                    |
-| Week 4: 4/15 - 4/21 |          |                    |
-| Week 5: 4/22 - 4/26 |          |                    |
+| Week 1: 3/24 - 3/31 |  Pulley Kinematics                            | William  |
+		      |  Researching motor controls + distance sensor | Zwe      |
+| Week 2: 4/1 - 4/7   |  Motor code                                   | William  |
+		      |  Distance sensor code                         | Zwe      |
+| Week 3: 4/8 - 4/14  |  Distance Calculations                        | William  |
+		      |  Servo Controls                               | Zwe      |
+| Week 4: 4/15 - 4/21 |  Cadding and Assembling                       | William  |
+		      |  Cadding and Assembling                       | Zwe      |
+| Week 5: 4/22 - 4/26 |  Assembling and final touches        	      | William  |
+		      |  Assembling and final touches                 | Zwe      |
 
 ### 12. Proposal Presentation
 
