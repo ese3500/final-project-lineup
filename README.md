@@ -37,17 +37,14 @@ What do you expect to accomplish by the first milestone?
 What do you expect to achieve by the final demonstration or after milestone 1?
 
 ### 8. Methodology
+We will first focus on a prototype that can move back and forth along a rope. Afterwards, we will incorporate distance sensors that will detect posts and slow down the device before hitting a post. Then we will incorporate dropping functionality as well as the ability to drop off midway at a specific distance along the rope. 
 
-What is your approach to the problem?
 
 ### 9. Components
-
-What major components do you need and why?
+We will need two motors to move the zipline along the rope that can at least carry ten pounds of weight, a gyroscope that measures angle will be necessary to calculate the angle of the rope and determine the effects of gravity along the zipline, two distance sensors to detect posts before hitting them, an ESC to control our motors and two batteries to power the motors and the atmega328pb + peripherals.   
 
 ### 10. Evaluation
-
-What is your metric for evaluating how well your product/solution solves the problem? Think critically on this section. Having a boolean metric such as “it works” is not very useful. This is akin to making a speaker and if it emits sound, albeit however terrible and ear wrenching, declare this a success.
-It is recommended that your project be something that you can take pride in. Oftentimes in interviews, you will be asked to talk about projects you have worked on.
+We will be making sure the location the package is dropped off is correct using a meter stick, and will also see if the device comes to a complete stop at the end of the line. We will try different drop off locations to test precision and accuracy. 
 
 ### 11. Timeline
 
