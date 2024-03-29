@@ -54,15 +54,24 @@ This section is to help guide your progress over the next few weeks. Feel free t
 | **Week**            | **Task** | **Assigned To**    |
 |----------           |--------- |------------------- |
 | Week 1: 3/24 - 3/31 |  Pulley Kinematics                            | William  |
-		      |  Researching motor controls + distance sensor | Zwe      |
+
+|  Researching motor controls + distance sensor | Zwe      |
+	
 | Week 2: 4/1 - 4/7   |  Motor code                                   | William  |
-		      |  Distance sensor code                         | Zwe      |
+
+|  Distance sensor code                         | Zwe      |
+
 | Week 3: 4/8 - 4/14  |  Distance Calculations                        | William  |
-		      |  Servo Controls                               | Zwe      |
+		  
+|  Servo Controls                               | Zwe      |
+
 | Week 4: 4/15 - 4/21 |  Cadding and Assembling                       | William  |
-		      |  Cadding and Assembling                       | Zwe      |
+		 
+|  Cadding and Assembling                       | Zwe      |
+
 | Week 5: 4/22 - 4/26 |  Assembling and final touches        	      | William  |
-		      |  Assembling and final touches                 | Zwe      |
+
+|  Assembling and final touches                 | Zwe      |
 
 ### 12. Proposal Presentation
 
