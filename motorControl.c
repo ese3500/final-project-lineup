@@ -9,10 +9,15 @@
 #define F_CPU               16000000UL   // 16MHz clock
 #include <avr/interrupt.h>
 #include "inc/uart.h"
+#include <stdio.h>
+#include <stdlib.h>
+
 #define UART_BAUD_RATE      9600
 #define UART_BAUD_PRESCALER (((F_CPU / (UART_BAUD_RATE * 16UL))) - 1)
 
 volatile uint32_t val = 0; 
+volatile int direction = 0; 
+static double consVel = 10.0; 
 
 void Intialize() {
 		cli(); 
@@ -80,36 +85,25 @@ void Intialize() {
 			TCCR0A |= (1 << COM0B1);
 
 		   OCR0A = 40;              // Sets frequency, 400kHz
-		   
-		   //-------------------------------------Timer 1 OVF-------------------------------------------------//
-			//Set prescaler by 1024
-			TCCR1B &= ~(1 << CS10);
-			TCCR1B &= ~(1 << CS11);
-			TCCR1B &= ~(1 << CS12);
-				
-			//Normal
-			TCCR1A &= ~(1 << WGM10);
-			TCCR1A &= ~(1 << WGM11);
-			TCCR1B &= ~(1 << WGM12);
-			//overflow
-			TIMSK1 = (1 << TOIE1);
-			 
-			
 		sei(); 
 
 }
 
 
-ISR(TIMER1_OVF_vect) {
-	
-	
+void updateVelocity(double currSpeed) {
+	if (abs(currSpeed) < consVel - 1) {
+		OCR0B =  (3.222 * currSpeed) + 1;  // Sets duty cycle,
+	}  else {
+		OCR0B = 40;
+	}
 }
+
 
 int main(void)
 {
     Intialize(); 
 	UART_init(UART_BAUD_PRESCALER);
-	
+	updateVelocity(9); 
     while (1) 
     {
 				int currentAdcRead = ADC;
@@ -119,7 +113,7 @@ int main(void)
 				UART_putstring(rawAdcStringBuffer);
 				UART_putstring( "\r\n");
 				
-				OCR0B = (0.039 * ADC);   // Sets duty cycle,
+				//OCR0B = (0.039 * ADC);   // Sets duty cycle,
 		 
     }
 }
