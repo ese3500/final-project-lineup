@@ -27,7 +27,7 @@ ADC and interrupts for the sensors
 
 
 ### 5. Hardware Requirements Specification (HRS)
-Our actuators will include four motors that will be used to drop off items, and move the zipline across rope. 
+Our actuators will include 2 servos that will be used to drop off items, and 2 motors to move the device along the zipline. 
 
 ### 6. MVP Demo
 
