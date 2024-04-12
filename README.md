@@ -26,8 +26,11 @@ Our device will utilize PWM, ADC, and interrupts to control the motors of the de
 
 Our users would be people looking for delivery systems in mountainous region 
 
+Our signal duty cycle will update every 20 mS
 
+Our accelerometer will calculate an approximate velocity through adding the current acceleration times a small time step added onto a total velocity
 
+Our time of flight signals will recognize a stationary object in front of the pulley and slow down the pulley before impact
 
 ### 5. Hardware Requirements Specification (HRS)
 
