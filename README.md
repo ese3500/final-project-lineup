@@ -21,13 +21,20 @@ At the end we should have a working zipline package delivery device. This device
 These are to help guide and direct your progress.
 
 ### 4. Software Requirements Specification (SRS)
-We will be using: 
-PWM and timers to manage the motors
-ADC and interrupts for the sensors
+
+Our device will utilize PWM, ADC, and interrupts to control the motors of the device along the zipline.
+
+Our users would be people looking for delivery systems in mountainous region 
+
+
 
 
 ### 5. Hardware Requirements Specification (HRS)
-Our actuators will include 2 servos that will be used to drop off items, and 2 motors to move the device along the zipline. 
+
+Our device shall move bilaterally across a zipline
+Our device shall be able to drop packages 
+Our device shall slow down before hitting an end of the zipline
+Our device should have a user interface
 
 ### 6. MVP Demo
 
