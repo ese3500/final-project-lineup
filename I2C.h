@@ -8,7 +8,7 @@
 #define F_CPU                16000000UL   // 16MHz clock
 #define USART_BAUD_RATE      9600
 #define USART_BAUD_PRESCALER (((F_CPU / (USART_BAUD_RATE * 16UL))) - 1)
-#define time_out 12800
+#define time_out 32000
 #define testAddress 0x68
 #define testRegister 0x43
 #define G = 9.8
@@ -50,12 +50,18 @@ uint8_t phrase = 0;
 #define sixteen_G 0x18
 
 #define one_kHz 0x07
+#define fivehundred_Hz 0x0F
+#define fifty_Hz 0x9F
 
 //Gyroscope values
 #define two_fifty 0x00
 #define five_hundred 0x08
 #define one_thousand 0x10
 #define two_thousand 0x18
+
+//interrupts
+#define interrupt_enable_reg 0x38
+#define data_ready 0x01
 
 
 /*---------------------------------------------------------------------------------------------------------------------
@@ -532,7 +538,7 @@ int accel_config() {
 		return check;
 	}
 	
-	check = twi_write(testAddress, sample_Rate_Divider, one_kHz);
+	check = twi_write(testAddress, sample_Rate_Divider, fifty_Hz);
 	
 	
 	if (check != 0) {
@@ -548,11 +554,12 @@ int accel_config() {
 	}
 	
 	
-	if (stored_data[0] != one_kHz) {
+	if (stored_data[0] != fifty_Hz) {
 		UART_putstring("Sample rate post write was not the same as value written \n");
 		check = 1;
 	}
 	
+	check = twi_write(testAddress, interrupt_enable_reg, data_ready);
 	
 	return check;
 }
