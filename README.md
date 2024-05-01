@@ -21,7 +21,7 @@ I2C: https://youtu.be/aLGZ5tMLts8
 US Sensor: https://youtu.be/iNkS-_jFNoQ
 
 ### 2. Images
-![Block Diagram](/final-project-lineup/Circuit_Diagram.png)
+![Block Diagram](/tunw134/final-project-lineup/block-diagram.jpg)
 ![Circuit Diagram](https://github.com/ese3500/final-project-lineup/blob/751d02cdddba78f7090d7a660f3e2fa0d1aff0e5/Circuit%20Diagram.png)
 ![Image 1](https://github.com/ese3500/final-project-lineup/blob/751d02cdddba78f7090d7a660f3e2fa0d1aff0e5/20240430_222506.jpg)
 ![Image 2](https://github.com/ese3500/final-project-lineup/blob/751d02cdddba78f7090d7a660f3e2fa0d1aff0e5/20240430_222501.jpg)
