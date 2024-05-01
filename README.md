@@ -4,7 +4,7 @@
     * Team Name: Line Up
     * Team Members: William Tun & Zwe Tun
     * Github Repository URL: https://github.com/ese3500/final-project-lineup
-    * Github Pages Website URL: [for final submission]
+    * Github Pages Website URL: (https://ese3500.github.io/final-project-lineup/)
     * Description of hardware: laptops
 
 ## Final Project Proposal
