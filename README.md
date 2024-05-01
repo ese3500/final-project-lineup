@@ -14,11 +14,13 @@ If you’ve never made a Github pages website before, you can follow this webpag
 
 ### 1. Video
 
-[Insert final project video here]
+https://youtu.be/CZTWxAPe4Xg
 
 ### 2. Images
-
-[Insert final project images here]
+![alt text](https://github.com/ese3500/final-project-lineup/blob/751d02cdddba78f7090d7a660f3e2fa0d1aff0e5/BLock%20Diagram.jpg)
+![alt text](https://github.com/ese3500/final-project-lineup/blob/751d02cdddba78f7090d7a660f3e2fa0d1aff0e5/Circuit%20Diagram.png)
+![alt text](https://github.com/ese3500/final-project-lineup/blob/751d02cdddba78f7090d7a660f3e2fa0d1aff0e5/20240430_222506.jpg)
+![alt text](https://github.com/ese3500/final-project-lineup/blob/751d02cdddba78f7090d7a660f3e2fa0d1aff0e5/20240430_222501.jpg)
 
 ### 3. Results
 
