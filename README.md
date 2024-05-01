@@ -22,9 +22,9 @@ US Sensor: https://youtu.be/iNkS-_jFNoQ
 
 ### 2. Images
 ![Block Diagram](Block_Diagram.jpg)
-![Circuit Diagram](https://github.com/ese3500/final-project-lineup/blob/751d02cdddba78f7090d7a660f3e2fa0d1aff0e5/Circuit%20Diagram.png)
-![Image 1](https://github.com/ese3500/final-project-lineup/blob/751d02cdddba78f7090d7a660f3e2fa0d1aff0e5/20240430_222506.jpg)
-![Image 2](https://github.com/ese3500/final-project-lineup/blob/751d02cdddba78f7090d7a660f3e2fa0d1aff0e5/20240430_222501.jpg)
+![Circuit Diagram](Circuit_Diagram.png)
+![Image 1](20240430_222506.jpg)
+![Image 2](20240430_222501.jpg)
 
 ### 3. Results
 
