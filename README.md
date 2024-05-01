@@ -14,7 +14,9 @@ If you’ve never made a Github pages website before, you can follow this webpag
 
 ### 1. Video
 
-https://youtu.be/CZTWxAPe4Xg
+Demo: https://youtu.be/CZTWxAPe4Xg
+I2C: https://youtu.be/aLGZ5tMLts8
+US Sensor: https://youtu.be/iNkS-_jFNoQ
 
 ### 2. Images
 ![alt text](https://github.com/ese3500/final-project-lineup/blob/751d02cdddba78f7090d7a660f3e2fa0d1aff0e5/BLock%20Diagram.jpg)
