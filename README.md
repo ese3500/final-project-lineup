@@ -15,7 +15,9 @@ If you’ve never made a Github pages website before, you can follow this webpag
 ### 1. Video
 
 Demo: https://youtu.be/CZTWxAPe4Xg
+
 I2C: https://youtu.be/aLGZ5tMLts8
+
 US Sensor: https://youtu.be/iNkS-_jFNoQ
 
 ### 2. Images
